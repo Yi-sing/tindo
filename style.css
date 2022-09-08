@@ -1,0 +1,201 @@
+body{
+
+   }
+
+   h1,h2, h3{
+    font-family:montserrat ;
+   }
+   
+   #title{
+       background-color: rgb(255, 0, 76);
+       color: #fff;
+       
+   }
+   .navbar-brand{
+       color: white;
+   }
+   
+   .nav-link{
+       color: rgb(255, 255, 255);
+       padding: 0 18px;
+       
+   }
+   
+.container-fluid{
+       padding: 3% 15%;
+}
+   
+h1{
+  
+   font-size: 3rem;
+   line-height: 1.5;
+   font-weight: bolder;
+}
+   
+/*Navbar-nav*/
+
+.navbar-brand{
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.navbar{
+    padding-bottom: 2.5rem;
+}
+/*button*/
+
+.download-button{
+    margin:5% 3% 5% 0;
+}
+/*title-image*/
+
+
+.title-image img{
+    width: 21%;
+    transform: rotate(25deg);
+    z-index: 1;
+    top: 10%;
+    position: absolute;
+    
+}
+
+/*features section*/
+
+#features{
+    padding: 7% 15%;
+    background-color: rgb(255, 252, 252);
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    
+    
+    
+
+}
+
+.features-box{
+    text-align:center;
+    padding: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+h3{
+    
+    font-weight: bolder;
+    font-size: 1.4rem;
+    
+
+   
+}
+
+p{
+    color: gray;
+}
+
+.icon {
+    color: rgb(255, 69, 0);
+}
+
+.icon:hover{
+    color: rgb(255, 0, 76);
+}
+/*testimonials section*/
+
+#testimonials{
+   
+    background-color: rgb(255, 69, 0);
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item{
+    padding:7% 15%;
+}
+
+#testimonials h2{
+   
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+#press{
+   background-color:rgb(255, 69, 0) ; 
+   text-align: center;
+}
+
+.press-logo{
+   width: 20%;
+   padding: 2% 1% 7% 1%;
+}
+
+.pri{
+    text-align: center;
+    font-family:montserrat;
+    font-size: 1.5rem;
+    padding: 3%;
+    
+}
+
+#pricing{
+    text-align: center;
+    margin: 5%;
+}
+
+#cta{
+    text-align: center;
+    background-color: rgb(249, 13, 166);
+    color: #fff;
+}
+ 
+
+#cta h3{
+font-size: 3.5rem;
+
+line-height: 1.5;
+padding: 5% 23%;
+}
+
+spam{
+    color: rgb(246, 255, 0);
+}
+
+.ctn-btn{
+    margin:0 1% 10% 1%;
+    
+}
+
+#footer{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+}
+
+#footer p{
+    color: gray;
+    margin: 13% 0 0% 0;
+}
+
+/*Media query section*/
+
+@media (max-width:900px){
+    .title-image img{
+        position: static;
+        transform: rotate(0);
+        width:60%;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+
+
